@@ -1,0 +1,27 @@
+.recharge .box {
+    background-color: #15518a;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.recharge .box.sel {
+    background-color: #2593fc
+}
+
+.recharge .box.pay {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e3e3e3
+}
+
+.video-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical
+}
